@@ -1,0 +1,22 @@
+Balling Maze sound assets
+
+Source: Maou Damashii (Joker Sounds Co. Ltd.)
+Website: https://maou.audio/
+Usage rules: https://maou.audio/rule/
+
+The following files were downloaded from the official sound URLs:
+
+- maou_bgm_cyber42.mp3
+  https://maou.audio/sound/bgm/maou_bgm_cyber42.mp3
+- maou_bgm_cyber41.mp3
+  https://maou.audio/sound/bgm/maou_bgm_cyber41.mp3
+- maou_bgm_cyber44.mp3
+  https://maou.audio/sound/bgm/maou_bgm_cyber44.mp3
+- maou_se_magical31.mp3
+  https://maou.audio/sound/se/maou_se_magical31.mp3
+- maou_se_battle05.mp3
+  https://maou.audio/sound/se/maou_se_battle05.mp3
+- maou_se_inst_piano1_g_chord.mp3
+  https://maou.audio/sound/se/maou_se_inst_piano1_g_chord.mp3
+
+Check the official usage rules before redistribution or commercial release.

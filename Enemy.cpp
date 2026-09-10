@@ -23,6 +23,8 @@ void Enemy::update(float dt, const Map& map, const Player& player)
 	}
 
 	float sp = speed * (adjacentWall ? 3.0f : 1.0f);
+	float oldX = x;
+	float oldZ = z;
 	float nx = x + ndx * sp * dt;
 	float nz = z + ndz * sp * dt;
 
@@ -32,4 +34,6 @@ void Enemy::update(float dt, const Map& map, const Player& player)
 	if (!map.isWallAt(targetRow, targetCol)) {
 		x = nx; z = nz;
 	}
+	sphere.setPosition(x, y, z);
+	sphere.updateRolling((x - oldX) / dt, (z - oldZ) / dt, dt);
 }

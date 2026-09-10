@@ -42,6 +42,12 @@
     <ClInclude Include="Audio.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="TitleScreen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereEntity.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Balling Maze.cpp">
@@ -59,6 +65,15 @@
     <ClCompile Include="Settings.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScreen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereEntity.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Balling Maze.rc">
@@ -72,5 +87,22 @@
     <Image Include="Balling Maze.ico">
       <Filter>リソース ファイル</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="Assets\Scripts\MapImporter.cs" />
+    <None Include="Assets\Scripts\PlayerController.cs" />
+    <None Include="Assets\Scripts\EnemyAI.cs" />
+    <None Include="README_Unity.md" />
+    <None Include="UnityProject\Assets\Scripts\MapImporter.cs" />
+    <None Include="UnityProject\Assets\Scripts\PlayerController.cs" />
+    <None Include="UnityProject\Assets\Scripts\CameraController.cs" />
+    <None Include="UnityProject\Assets\Scripts\EnemyAI.cs" />
+    <None Include="UnityProject\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\StreamingAssets\maps\map1.txt" />
+    <Text Include="Assets\StreamingAssets\maps\map2.txt" />
+    <Text Include="Assets\StreamingAssets\maps\map3.txt" />
   </ItemGroup>
 </Project>

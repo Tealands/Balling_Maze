@@ -2,6 +2,7 @@
 #pragma once
 #include <array>
 #include "Map.h"
+#include "SphereEntity.h"
 
 struct Player {
 	float x = 0.0f; // world X (column)
@@ -12,7 +13,9 @@ struct Player {
 	bool keys[256] = {0};
 	float speed = 5.0f; // units per second
 	float jumpVelocity = 8.0f;
+	SphereEntity sphere;
 
-	void update(float dt, const Map& map);
+	// cameraYaw in degrees used to make movement relative to camera direction
+	void update(float dt, const Map& map, float cameraYawDegrees);
 	void jump();
 };

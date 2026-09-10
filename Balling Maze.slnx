@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Balling Maze.vcxproj" />
+  <Project Path="Balling Maze.vcxproj" Id="956e4c95-47a9-4384-a50b-5c572eccacc3" />
 </Solution>

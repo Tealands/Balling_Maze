@@ -147,14 +147,19 @@
     <ClInclude Include="Player.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="Settings.h" />
+    <ClInclude Include="SphereEntity.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TitleScreen.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Audio.cpp" />
     <ClCompile Include="Balling Maze.cpp" />
     <ClCompile Include="Enemy.cpp" />
     <ClCompile Include="Map.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="SphereEntity.cpp" />
+    <ClCompile Include="TitleScreen.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Balling Maze.rc" />
@@ -162,6 +167,23 @@
   <ItemGroup>
     <Image Include="Balling Maze.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="Assets\Scripts\EnemyAI.cs" />
+    <None Include="Assets\Scripts\MapImporter.cs" />
+    <None Include="Assets\Scripts\PlayerController.cs" />
+    <None Include="README_Unity.md" />
+    <None Include="UnityProject\Assets\Scripts\CameraController.cs" />
+    <None Include="UnityProject\Assets\Scripts\EnemyAI.cs" />
+    <None Include="UnityProject\Assets\Scripts\MapImporter.cs" />
+    <None Include="UnityProject\Assets\Scripts\PlayerController.cs" />
+    <None Include="UnityProject\README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\StreamingAssets\maps\map1.txt" />
+    <Text Include="Assets\StreamingAssets\maps\map2.txt" />
+    <Text Include="Assets\StreamingAssets\maps\map3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
