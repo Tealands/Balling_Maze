@@ -8,14 +8,14 @@
 *.sln.docstates
 
 # Build directories (common)
-/x64/
+# use x86 for builds
 /x86/
 /build/
 /out/
 
 # Project specific output (keep source files)
-*/x64/Debug/
-*/x64/Release/
+*/x86/Debug/
+*/x86/Release/
 */Debug/
 */Release/
 
