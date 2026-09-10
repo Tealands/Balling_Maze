@@ -1,0 +1,60 @@
+# Visual Studio / C++ build artifacts - exclude compiled files and IDE state
+
+# Visual Studio local state
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build directories (common)
+/x64/
+/x86/
+/build/
+/out/
+
+# Project specific output (keep source files)
+*/x64/Debug/
+*/x64/Release/
+*/Debug/
+*/Release/
+
+# Intermediate and object files
+*.obj
+*.o
+*.lo
+*.sbr
+
+# Executables and libraries
+*.exe
+*.dll
+*.lib
+*.a
+
+# Debug and linker files
+*.pdb
+*.ilk
+*.idb
+*.ipch
+
+# Build logs and temporary files
+*.log
+*.tlog/
+*.cache
+
+# Visual Studio Code
+.vscode/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# vcpkg
+vcpkg_installed/
+vcpkg.applocal.log
+
+# Other temp
+*.tmp
+*.bak
