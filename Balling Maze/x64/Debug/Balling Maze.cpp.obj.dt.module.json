@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Balling Maze\\x64\\Debug\\Balling Maze.obj",
+            "outputs": [
+                "Balling Maze\\x64\\Debug\\Balling Maze.cpp.obj.dt.module.json",
+                "Balling Maze\\x64\\Debug\\Balling Maze.cpp.obj.dt.d.json"
+            ],
+            "requires": []
+        }
+    ]
+}
